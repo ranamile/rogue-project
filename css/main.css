@@ -1,0 +1,176 @@
+body{
+	font-family: 'myriad pro', sans-serif;
+}	
+
+
+/**** GRID ****/
+
+.full-width{
+	margin: 0 auto;
+	width: 1200px;
+}
+.half-width{
+	float: left;
+	width: 600px;
+}
+.third-width{
+	float: left;
+	width: 400px;
+}
+
+/**** HEADER ****/
+
+header{
+	border-bottom: 2px solid #77a466;
+	height: 90px;
+	margin: 0 74px 0 75px;
+	text-transform: uppercase;
+}
+
+header h1 span{
+	color: #77a466;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+header h1{
+	color: black;
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 10px 0 0 0;
+}
+
+nav{
+	clear: both;
+	float: right;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 10px 5px 0 0px;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+	color: #77a466;
+	font-size: 13px;
+	padding-left: 15px;
+	text-transform: uppercase;
+	text-decoration: none;	
+}
+
+
+
+/**** TOP SECTION ****/
+
+img{
+	border-bottom: 2px solid #77a466;
+	height: auto;
+}
+
+#top-section{
+	clear: both;
+	float: left;
+	margin: 0 auto;
+	padding-left: 75px;
+		
+}
+
+#top-section h3{
+	color: #77a466;
+	font-size: 18px;
+}
+
+#top-section p{
+	font-size: 19px;
+	line-height: 25px;
+	padding-right: 75px;
+}
+
+
+
+
+/**** BOTTOM SECTION ****/
+
+#bottom-section{
+	border-top: 1px solid #eee;
+	clear: both;
+	margin: 0 80px 0 73px;
+
+}
+
+h4{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#specials{
+	float: left;
+	padding: 10px 0px;
+}
+
+#specials ul{
+	padding-left: 0;
+
+}
+
+#specials li{
+	color: #77a466;
+	font-size: 17px;
+	line-height: 29px;
+	list-style: none;
+						
+}
+
+#reviews{
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	float: left;
+	padding: 10px 30px;
+}
+
+#reviews p{
+	font-size: 17px;
+	line-height: 20px;
+}
+
+#contact{
+	float: left;
+	padding: 10px 30px;
+}
+
+#contact ul{
+	padding-left: 0px;
+}
+
+
+#contact li{
+	font-size: 17px;
+	line-height: 25px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/**** FOOTER ****/
+
+#footer{
+	border-top: 3px solid #eee;
+	clear: both;
+	font-size: 14px;
+	font-weight: bolder;
+	line-height: 30px;
+	margin: 0 80px 0 73px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+p span{
+	color: #77a466;
+	font-family: 'dancing script', cursive;
+	font-weight: bolder;
+	text-transform: lowercase;
+}
